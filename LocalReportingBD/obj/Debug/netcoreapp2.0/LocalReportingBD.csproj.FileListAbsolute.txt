@@ -1,0 +1,8 @@
+C:\Users\Paul\Documents\Projects\ReportingMongoDBCrawler\LocalReportingBD\bin\Debug\netcoreapp2.0\LocalReportingBD.deps.json
+C:\Users\Paul\Documents\Projects\ReportingMongoDBCrawler\LocalReportingBD\bin\Debug\netcoreapp2.0\LocalReportingBD.runtimeconfig.json
+C:\Users\Paul\Documents\Projects\ReportingMongoDBCrawler\LocalReportingBD\bin\Debug\netcoreapp2.0\LocalReportingBD.runtimeconfig.dev.json
+C:\Users\Paul\Documents\Projects\ReportingMongoDBCrawler\LocalReportingBD\bin\Debug\netcoreapp2.0\LocalReportingBD.dll
+C:\Users\Paul\Documents\Projects\ReportingMongoDBCrawler\LocalReportingBD\obj\Debug\netcoreapp2.0\LocalReportingBD.csprojResolveAssemblyReference.cache
+C:\Users\Paul\Documents\Projects\ReportingMongoDBCrawler\LocalReportingBD\obj\Debug\netcoreapp2.0\LocalReportingBD.csproj.CoreCompileInputs.cache
+C:\Users\Paul\Documents\Projects\ReportingMongoDBCrawler\LocalReportingBD\obj\Debug\netcoreapp2.0\LocalReportingBD.AssemblyInfoInputs.cache
+C:\Users\Paul\Documents\Projects\ReportingMongoDBCrawler\LocalReportingBD\obj\Debug\netcoreapp2.0\LocalReportingBD.AssemblyInfo.cs
