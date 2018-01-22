@@ -6,14 +6,19 @@ using System.Web;
 
 namespace ReportingDataBase.Models
 {
-    public class crawler
+    public class Crawler
     {
         [BsonId]
-        public string _id { get; set; }
-        public string status { get; set; }
-        public string searchCondition { get; set; }
-        public string error_message { get; set; }
-        public DateTime created_date { get; set; }
-        public DateTime modified_date { get; set; }
+        public string CrawlerID { get; set; }
+        [BsonElement("status")]
+        public string Status { get; set; }
+        [BsonElement("searchCondition")]
+        public string SearchCondition { get; set; }
+        [BsonElement("error_message")]
+        public string ErrorMessage { get; set; }
+        [BsonElement("created_date")]
+        public DateTime CreatedDate { get; set; }
+        [BsonElement("modified_date")]
+        public DateTime ModifiedDate { get; set; }
     }
 }

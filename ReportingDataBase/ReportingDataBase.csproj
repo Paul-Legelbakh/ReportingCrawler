@@ -102,8 +102,8 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\crawler.cs" />
-    <Compile Include="Models\vacancy.cs" />
+    <Compile Include="Models\Crawler.cs" />
+    <Compile Include="Models\Vacancy.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
