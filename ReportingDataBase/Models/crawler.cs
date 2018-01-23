@@ -1,4 +1,5 @@
-﻿using MongoDB.Bson.Serialization.Attributes;
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,13 +10,15 @@ namespace ReportingDataBase.Models
     public class Crawler
     {
         [BsonId]
-        public string CrawlerID { get; set; }
+        public ObjectId CrawlerID { get; set; }
         [BsonElement("status")]
         public string Status { get; set; }
-        [BsonElement("searchCondition")]
+        [BsonElement("search_condition")]
         public string SearchCondition { get; set; }
         [BsonElement("error_message")]
         public string ErrorMessage { get; set; }
+        [BsonElement("_class")]
+        public string Class { get;set;}
         [BsonElement("created_date")]
         public DateTime CreatedDate { get; set; }
         [BsonElement("modified_date")]
